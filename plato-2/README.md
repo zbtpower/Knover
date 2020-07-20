@@ -57,12 +57,12 @@ Commands for interaction with PLATO-2 models.
 
 **PLATO-2, 24L**
 ```bash
-sh ./scripts/24L_plato_interactive.sh
+sh ./scripts/24L_plato_interact.sh
 ```
 
 **PLATO-2, 32L**
 ```bash
-sh ./scripts/32L_plato_interactive.sh
+sh ./scripts/32L_plato_interact.sh
 ```
 
 ## Training
@@ -73,7 +73,7 @@ Note: You need to install NCCL library and set up the environment variable `LD_L
 **PLATO-2, 24L**
 
 ```bash
-sh ./script/24L_plato_training.sh
+sh ./scripts/24L_plato_training.sh
 ```
 
 **PLATO-2, 32L**
@@ -81,7 +81,7 @@ sh ./script/24L_plato_training.sh
 This training requires a 32G V100.
 
 ```bash
-sh ./script/32L_plato_training.sh
+sh ./scripts/32L_plato_training.sh
 ```
 
 ## Citation
